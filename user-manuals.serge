@@ -49,7 +49,7 @@ jobs
 
         output_file_path                        ./vcs/ru_manuals/%LANG%-%FILE%
 
-        ts_file_path                            ../ts/ru_manuals/%LANG%/%FILE%.po
+        ts_file_path                            ./ts/ru_manuals/%LANG%/%FILE%.po
 
         parser
         {
