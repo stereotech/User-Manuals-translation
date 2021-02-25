@@ -44,7 +44,7 @@ jobs
         destination_languages                   en de
 
         source_dir                              ./vcs/ru_manuals/xliff
-        source_match                            \.js$
+        source_match                            \.xlf$
         source_process_subdirs                  YES
 
         output_file_path                        ./vcs/ru_manuals/%LANG%-%FILE%
