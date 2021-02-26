@@ -47,7 +47,7 @@ jobs
         source_match                            \.xlf$
         source_process_subdirs                  YES
 
-        output_file_path                        ./vcs/ru_manuals/%LANG%-%FILE%
+        output_file_path                        ./vcs/ru_manuals/%LANG%_xliff/%FILE%
 
         ts_file_path                            ./ts/ru_manuals/%LANG%/%FILE%.po
 
